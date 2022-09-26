@@ -1,5 +1,6 @@
 package com.sasha.slider
 
+import android.annotation.SuppressLint
 import android.content.Context
 import android.os.Handler
 import android.util.AttributeSet
@@ -26,6 +27,7 @@ import java.util.*
  * ryansamte07@gmail.com
  * zogam
  */
+@SuppressLint("ClickableViewAccessibility")
 class ImageSlider @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
