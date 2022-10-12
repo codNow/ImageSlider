@@ -17,7 +17,7 @@
         <!--set the size of the shape-->
         <size
             android:width="5dp"
-            android:height="10dp" />
+            android:height="15dp" />
 
         <!--set the color gradients
             of the shape-->
