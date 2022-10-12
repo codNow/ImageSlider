@@ -6,11 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.sasha.slider.ImageSlider
-        android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:id="@+id/imageSlider"/>
 
+
+    <com.sasha.slider.ImageSlider
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    app:iss_auto_cycle="true"
+    android:id="@+id/imageSlider"/>
 
 
 
